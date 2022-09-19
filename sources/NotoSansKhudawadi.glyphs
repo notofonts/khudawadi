@@ -1,5 +1,8 @@
 {
-.appVersion = "1357";
+.appVersion = "3109";
+DisplayStrings = (
+"/uni25CC"
+);
 classes = (
 {
 code = "u112BA u112BE u112BF u112C1 u112C5 u112C6 u112C8 u112CB u112CD u112D2 u112D7 u112D9 u112DA u112DB u112DE u112DF";
@@ -166,6 +169,10 @@ value = (
 );
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = description;
 value = "Designed by Monotype design team.";
 },
@@ -188,10 +195,6 @@ value = "Noto is a trademark of Google Inc.";
 {
 name = versionString;
 value = "Version 2.003";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 date = "2021-12-16 18:41:32 +0000";
@@ -286,7 +289,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 944;
+value = 995;
 },
 {
 name = winDescent;
@@ -524,9 +527,43 @@ category = Letter;
 },
 {
 glyphname = uni25CC;
-lastChange = "2018-06-07 20:09:23 +0000";
+lastChange = "2022-09-19 08:48:37 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor11;
+position = "{471, 680}";
+},
+{
+name = Anchor14;
+position = "{326, 806}";
+},
+{
+name = Anchor16;
+position = "{287, -110}";
+},
+{
+name = Anchor4;
+position = "{323, -3}";
+},
+{
+name = Anchor6;
+position = "{456, 589}";
+},
+{
+name = Anchor9;
+position = "{288, 735}";
+},
+{
+name = bottom;
+position = "{313, -36}";
+},
+{
+name = top;
+position = "{296, 597}";
+}
+);
 layerId = UUID0;
 paths = (
 {
