@@ -1,7 +1,7 @@
 {
 .appVersion = "3109";
 DisplayStrings = (
-"/uni25CC"
+"/space/u112E7.alt/space/space/u112E7_straight.alt"
 );
 classes = (
 {
@@ -213,14 +213,6 @@ code = "lookup SingleSubstitution4 {\012    lookupflag 0;\012    ;\012    # Orig
 name = SingleSubstitution4;
 },
 {
-code = "lookup SingleSubstitution5 {\012    lookupflag 0;\012    ;\012    # Original source: 4 \012    sub u112E1 by u112E1.alt2;\012    sub u112E7 by u112E7_straight;\012    sub u112E7.alt by u112E7_straight.alt;\012} SingleSubstitution5;\012";
-name = SingleSubstitution5;
-},
-{
-code = "lookup PairPositioning12 {\012\012} PairPositioning12;\012";
-name = PairPositioning12;
-},
-{
 code = "lookup SinglePositioning21 {\012    lookupflag 0;\012    ;\012    # Original source: 13 \012    pos u112DF <-100 0 0 0>;\012} SinglePositioning21;\012";
 name = SinglePositioning21;
 },
@@ -251,7 +243,7 @@ code = "lookupflag IgnoreMarks;\012sub u112C0 u112E2 by u112C0_u112E2;\012sub u1
 name = abvf;
 },
 {
-code = "lookupflag IgnoreMarks;\012sub u112E1 u112BD by u112E1_u112BD;\012sub u112E1 u112C0 by u112E1_u112C0;\012sub u112E1 u112C3 by u112E1_u112C3;\012sub u112E1 u112D1 by u112E1_u112D1;\012sub u112E1 u112D4 by u112E1_u112D4;\012sub u112E1 u112D7 by u112E1_u112D7;\012\012lookupflag MarkAttachmentType @markAttachmentSet1;\012sub @class1' [u112E7 u112E7.alt]' lookup SingleSubstitution4;\012sub [u112C9 u112CA]' [u112E7 u112E7.alt]' lookup SingleSubstitution4;\012sub [u112C9 u112CA]' u112E8' lookup SingleSubstitution4;\012sub u112BB' [u112E7 u112E7.alt]' lookup SingleSubstitution4;\012sub @class2 [u112E7 u112E7.alt]' lookup SingleSubstitution5;\012sub @class3 [u112E7 u112E7.alt]' lookup SingleSubstitution5;\012sub @class3 u112E2' lookup SingleSubstitution4;\012sub u112E1' lookup SingleSubstitution4 u112BB';\012sub u112E1' lookup SingleSubstitution5 u112CC';\012sub u112E1' lookup SingleSubstitution4 u112D5';\012sub u112E1' lookup SingleSubstitution6 u112CE';\012\012lookupflag 0;\012sub @class2' [u112E7 u112E7.alt]' lookup SingleSubstitution5;\012";
+code = "lookupflag IgnoreMarks;\012sub u112E1 u112BD by u112E1_u112BD;\012sub u112E1 u112C0 by u112E1_u112C0;\012sub u112E1 u112C3 by u112E1_u112C3;\012sub u112E1 u112D1 by u112E1_u112D1;\012sub u112E1 u112D4 by u112E1_u112D4;\012sub u112E1 u112D7 by u112E1_u112D7;\012\012lookupflag MarkAttachmentType @markAttachmentSet1;\012sub @class1' [u112E7 u112E7.alt]' lookup SingleSubstitution4;\012sub [u112C9 u112CA]' [u112E7 u112E7.alt]' lookup SingleSubstitution4;\012sub [u112C9 u112CA]' u112E8' lookup SingleSubstitution4;\012sub u112BB' [u112E7 u112E7.alt]' lookup SingleSubstitution4;\012sub @class3 u112E2' lookup SingleSubstitution4;\012sub @class3 [u112E7 u112E7.alt]' by [u112E7_straight u112E7_straight.alt];\012sub u112E1' lookup SingleSubstitution4 u112BB';\012sub u112E1' u112CC by u112E1.alt2;\012sub u112E1' lookup SingleSubstitution4 u112D5';\012sub u112E1' lookup SingleSubstitution6 u112CE';\012\012lookupflag UseMarkFilteringSet [u112E7 u112E7.alt];\012sub @class2 [u112E7 u112E7.alt]' by [u112E7_straight u112E7_straight.alt];\012";
 name = abvs;
 },
 {
